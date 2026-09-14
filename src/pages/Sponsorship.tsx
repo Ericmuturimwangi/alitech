@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { PHOTOS } from "../lib/photos";
 
 const tiers = [
@@ -102,12 +103,12 @@ export default function Sponsorship() {
             </table>
           </div>
 
-          <a
-            href="/registration"
+          <Link
+            to="/registration"
             className="mt-8 inline-block rounded-sm bg-gold px-6 py-3 font-body text-sm font-medium text-ink transition-colors hover:bg-gold-dark hover:text-paper"
           >
             Become a sponsor
-          </a>
+          </Link>
         </div>
       </section>
 

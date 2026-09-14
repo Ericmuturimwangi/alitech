@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { PHOTOS } from "../lib/photos";
 
 const stats = [
@@ -32,18 +33,18 @@ export default function Hero() {
               University and organised by The Agritech and Innovation Hub.
             </p>
             <div className="mt-7 flex flex-wrap gap-4">
-              <a
-                href="/registration"
+              <Link
+                to="/registration"
                 className="rounded-sm bg-gold px-6 py-3 font-body text-sm font-medium text-ink transition-colors hover:bg-gold-dark hover:text-paper"
               >
                 Register to attend
-              </a>
-              <a
-                href="/exhibitor"
+              </Link>
+              <Link
+                to="/exhibitor"
                 className="rounded-sm border border-paper/60 px-6 py-3 font-body text-sm font-medium text-paper transition-colors hover:bg-paper hover:text-navy-dark"
               >
                 Become an exhibitor
-              </a>
+              </Link>
             </div>
           </div>
         </div>

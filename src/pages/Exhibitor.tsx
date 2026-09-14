@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { PHOTOS } from "../lib/photos";
 
 const booths = [
@@ -85,12 +86,12 @@ export default function Exhibitor() {
               <p className="mt-3 font-body text-xs text-ink/60">
                 A limited number of stands are available on a first-come, first-served basis.
               </p>
-              <a
-                href="/registration"
+              <Link
+                to="/registration"
                 className="mt-6 inline-block rounded-sm bg-gold px-6 py-3 font-body text-sm font-medium text-ink transition-colors hover:bg-gold-dark hover:text-paper"
               >
                 Book a stand now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

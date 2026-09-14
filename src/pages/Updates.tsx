@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { PHOTOS } from "../lib/photos";
 
 const updates = [
@@ -117,12 +118,12 @@ export default function Updates() {
             floor and farmer clinics, so knowledge-sharing and deal-making happen in the same
             place.
           </p>
-          <a
-            href="/registration"
+          <Link
+            to="/registration"
             className="mt-6 inline-block rounded-sm bg-gold px-6 py-3 font-body text-sm font-medium text-ink transition-colors hover:bg-gold-dark hover:text-paper"
           >
             Register your interest
-          </a>
+          </Link>
 
           <div className="mt-10 grid gap-8 md:grid-cols-2 md:items-start">
             <ul className="grid gap-3 font-body text-sm text-ink/80">
