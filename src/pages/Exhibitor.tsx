@@ -1,9 +1,9 @@
 import { PHOTOS } from "../lib/photos";
 
 const booths = [
-  { type: "Standard booth (9 sqm)", price: "KES 120,000" },
-  { type: "Priority / corner booth (9 sqm)", price: "KES 180,000" },
-  { type: "Premium stand (18 sqm)", price: "KES 320,000" },
+  { type: "Standard booth (9 sqm)", price: "KES 80,000" },
+  { type: "Priority / corner booth (9 sqm)", price: "KES 120,000" },
+  { type: "Premium stand (18 sqm)", price: "KES 240,000" },
 ];
 
 const inclusions = [

@@ -1,10 +1,10 @@
 import { PHOTOS } from "../lib/photos";
 
 const fees = [
-  { category: "Students & smallholder farmers", standard: "KES 3,000", earlyBird: "KES 1,500" },
-  { category: "Kenya delegates", standard: "KES 8,000", earlyBird: "KES 5,000" },
-  { category: "East Africa delegates", standard: "USD 100", earlyBird: "USD 70" },
-  { category: "International delegates", standard: "USD 200", earlyBird: "USD 150" },
+  { category: "Students & smallholder farmers", standard: "KES 500", earlyBird: "400" },
+  { category: "Kenya delegates", standard: "KES 1,500", earlyBird: "KES 1,000" },
+  { category: "East Africa delegates", standard: "USD 25", earlyBird: "USD 20" },
+  { category: "International delegates", standard: "USD 50", earlyBird: "USD 45" },
 ];
 
 export default function Delegate() {

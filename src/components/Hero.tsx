@@ -1,9 +1,9 @@
 import { PHOTOS } from "../lib/photos";
 
 const stats = [
-  { value: "5,000+", label: "Expected delegates" },
-  { value: "150+", label: "Exhibiting brands" },
-  { value: "60+", label: "Speakers & panellists" },
+  { value: "3,000+", label: "Expected delegates" },
+  { value: "100+", label: "Exhibiting brands" },
+  { value: "20+", label: "Speakers & panellists" },
   { value: "20", label: "African countries" },
 ];
 

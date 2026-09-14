@@ -31,14 +31,14 @@ export default function Countdown() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-[1fr_auto] md:items-center">
         <div>
           <p className="font-body text-sm tracking-wide text-gold-light">Save the date</p>
-          <h2 className="mt-3 font-display text-3xl font-medium md:text-4xl">10 – 12 March 2027</h2>
+          <h2 className="mt-3 font-display text-3xl font-medium md:text-4xl">4th – 5th Mar 2027</h2>
           <p className="mt-3 max-w-sm font-body text-paper/75">
-            Three days at Zetech University, Nairobi. The countdown to ALITEC Africa 2027 is on.
+            Two days at Zetech University, Nairobi. The countdown to ALITEC Africa 2027 is on.
           </p>
           <dl className="mt-6 grid grid-cols-3 gap-6 font-body text-sm text-paper/70 sm:max-w-md">
             <div>
               <dt className="text-paper/50">Dates</dt>
-              <dd className="mt-1">10–12 Mar 2027</dd>
+              <dd className="mt-1">4th – 5th Mar 2027</dd>
             </div>
             <div>
               <dt className="text-paper/50">Venue</dt>
