@@ -25,7 +25,7 @@ export default function WhatToExpect() {
           <div>
             <p className="font-body text-sm tracking-wide text-gold-dark">What to expect</p>
             <h2 className="mt-3 max-w-xl font-display text-3xl font-medium leading-tight text-navy-dark md:text-4xl">
-              A days' worth packed into three
+              A day's worth packed into three
             </h2>
 
             <div className="mt-10 grid gap-6 sm:grid-cols-2">
