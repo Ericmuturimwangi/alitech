@@ -3,7 +3,7 @@ import { PHOTOS } from "../lib/photos";
 const days = [
   {
     number: "01",
-    day: "Tuesday",
+    day: "Friday",
     title: "Opening & Policy Summit",
     items: [
       "Official opening and keynote address",
@@ -14,7 +14,7 @@ const days = [
   },
   {
     number: "02",
-    day: "Wednesday",
+    day: "Friday",
     title: "Innovation & Investment",
     items: [
       "Agritech startup pitch arena",
@@ -25,7 +25,7 @@ const days = [
   },
   {
     number: "03",
-    day: "Thursday",
+    day: "Friday",
     title: "Farmers & Field Day",
     items: [
       "Farmer capacity-building clinics",
@@ -42,7 +42,7 @@ export default function Programme() {
       <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
         <p className="font-body text-sm tracking-wide text-gold-dark">Programme at a glance</p>
         <h2 className="mt-3 max-w-xl font-display text-3xl font-medium leading-tight text-navy-dark md:text-4xl">
-          Three days, three focuses
+          One day, three focuses
         </h2>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">

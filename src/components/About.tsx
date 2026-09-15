@@ -28,7 +28,7 @@ export default function About() {
                 Exhibition + conference
               </p>
               <p className="mt-1 font-body text-sm text-ink/70">
-                Two formats, one venue, three days.
+                Two formats, one venue, one day.
               </p>
             </div>
             <div>
