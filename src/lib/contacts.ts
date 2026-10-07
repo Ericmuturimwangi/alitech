@@ -1,7 +1,7 @@
 export const PHONE_CONTACTS = [
   { name: "Dr. Beauttah Mwangi", phone: "+254 721200679" },
   { name: "Phineas Muita CPM", phone: "+254 701403208" },
-  { name: "Eric Kirinya MSc", phone: "+254 798290115" },
+  { name: "Eric Kiriinya MSc", phone: "+254 798290115" },
 ];
 
 // Plain text form for FAQ and chat answers.
