@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react";
+import { PHONE_CONTACTS_TEXT } from "../lib/contacts";
 
 const faqs = [
   {
@@ -27,7 +28,7 @@ const faqs = [
   },
   {
     q: "Who should I contact with other questions?",
-    a: "Email info@alecafrica.org or call +254 700 000 000. You can also use the chat assistant in the bottom-left corner of this site.",
+    a: `Email info@alecafrica.org or call ${PHONE_CONTACTS_TEXT}. You can also use the chat assistant in the bottom-left corner of this site.`,
   },
 ];
 

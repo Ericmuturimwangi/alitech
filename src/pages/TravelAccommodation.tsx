@@ -1,4 +1,5 @@
 import { PHOTOS } from "../lib/photos";
+import { PHONE_CONTACTS } from "../lib/contacts";
 
 const quickFacts = [
   { label: "Venue", value: "Technological Park, Mangu Campus, Zetech University, Kenya" },
@@ -130,7 +131,11 @@ export default function TravelAccommodation() {
               Delegate support
             </h3>
             <p className="mt-3 font-body text-sm text-ink/75">info@alitecafrica.org</p>
-            <p className="font-body text-sm text-ink/75">+254 700 000 000</p>
+            {PHONE_CONTACTS.map((c) => (
+              <p key={c.phone} className="font-body text-sm text-ink/75">
+                {c.phone} · {c.name}
+              </p>
+            ))}
           </div>
         </div>
       </section>

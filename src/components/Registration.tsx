@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from "react";
+import { PHONE_CONTACTS } from "../lib/contacts";
 
 const roles = ["Delegate", "Exhibitor", "Sponsor", "Speaker", "Media"];
 
@@ -32,7 +33,13 @@ export default function Registration() {
             </div>
             <div className="flex gap-2">
               <dt className="font-medium text-navy-dark">Phone</dt>
-              <dd>+254 700 000 000</dd>
+              <dd>
+                {PHONE_CONTACTS.map((c) => (
+                  <span key={c.phone} className="block">
+                    {c.phone} · {c.name}
+                  </span>
+                ))}
+              </dd>
             </div>
             <div className="flex gap-2">
               <dt className="font-medium text-navy-dark">Venue</dt>

@@ -1,3 +1,5 @@
+import { PHONE_CONTACTS_TEXT } from "./contacts";
+
 export type KnowledgeEntry = {
   id: string;
   keywords: string[];
@@ -90,7 +92,7 @@ export const KNOWLEDGE_BASE: KnowledgeEntry[] = [
     id: "contact",
     keywords: ["contact", "email", "phone", "call", "reach", "support", "help"],
     answer:
-      "You can reach the organising team at info@alitecafrica.org or +254 700 000 000, or use the WhatsApp button in the bottom-right corner of the site.",
+      `You can reach the organising team at info@alitecafrica.org or ${PHONE_CONTACTS_TEXT}, or use the WhatsApp button in the bottom-right corner of the site.`,
   },
   {
     id: "cancel-refund",

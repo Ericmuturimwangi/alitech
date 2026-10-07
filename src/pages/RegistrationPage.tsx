@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from "react";
+import { PHONE_CONTACTS } from "../lib/contacts";
 
 const prefixes = ["Mr.", "Mrs.", "Ms.", "Dr.", "Eng.", "Prof.", "PhD", "Hon."];
 
@@ -308,7 +309,11 @@ export default function RegistrationPage() {
             <div>
               <p className="font-display text-lg font-medium text-navy-dark">Need help?</p>
               <p className="mt-2 font-body text-sm text-ink/75">info@alitecafrica.org</p>
-              <p className="font-body text-sm text-ink/75">+254 700 000 000</p>
+              {PHONE_CONTACTS.map((c) => (
+                <p key={c.phone} className="font-body text-sm text-ink/75">
+                  {c.phone} · {c.name}
+                </p>
+              ))}
               <p className="font-body text-sm text-ink/75">Technological Park, Mangu Campus, Zetech University</p>
             </div>
             <div>

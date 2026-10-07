@@ -121,10 +121,9 @@ tracks, speaking, and contact info.
 Everything below is dummy data carried over from the design/prototyping
 phase. Search for these before publishing:
 
-- **Contact details**: `info@alitecafrica.org` and `+254 700 000 000` appear
-  in `Footer.tsx`, `WhatsAppButton.tsx`, `Registration.tsx`,
-  `RegistrationPage.tsx`, and the knowledge base — replace with your real
-  email/phone.
+- **Contact details**: phone contacts now live in `src/lib/contacts.ts`;
+  `info@alitecafrica.org` still appears in `Footer.tsx`, `Registration.tsx`,
+  `RegistrationPage.tsx`, and the knowledge base — replace with your real email.
 - **Social links**: `SocialLinks.tsx` currently points every icon at `#`.
   Add your real profile URLs.
 - **Sponsor logos**: `Sponsors.tsx` shows "Your logo here" placeholder

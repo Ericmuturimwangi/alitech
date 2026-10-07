@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ASSETS } from "../assets-remote";
 import SocialLinks from "./SocialLinks";
 import NewsletterSignup from "./NewsletterSignup";
+import { PHONE_CONTACTS } from "../lib/contacts";
 
 const links = [
   { label: "Home", href: "/" },
@@ -59,7 +60,11 @@ export default function Footer() {
             <p className="font-body text-sm">Organised by The Agritech and Innovation Hub</p>
             {/* TODO: replace with your real contact details before going live */}
             <p className="mt-2 font-body text-sm">info@alitecafrica.org</p>
-            <p className="font-body text-sm">+254 700 000 000</p>
+            {PHONE_CONTACTS.map((c) => (
+              <p key={c.phone} className="font-body text-sm">
+                {c.phone} · {c.name}
+              </p>
+            ))}
           </div>
           <div>
             <p className="font-body text-xs uppercase tracking-wide text-paper/50">Stay updated</p>
